@@ -1,0 +1,11 @@
+C:\src\tdd-csharp-calc\src\calc\bin\Debug\netcoreapp3.0\calc.exe
+C:\src\tdd-csharp-calc\src\calc\bin\Debug\netcoreapp3.0\calc.deps.json
+C:\src\tdd-csharp-calc\src\calc\bin\Debug\netcoreapp3.0\calc.runtimeconfig.json
+C:\src\tdd-csharp-calc\src\calc\bin\Debug\netcoreapp3.0\calc.runtimeconfig.dev.json
+C:\src\tdd-csharp-calc\src\calc\bin\Debug\netcoreapp3.0\calc.dll
+C:\src\tdd-csharp-calc\src\calc\bin\Debug\netcoreapp3.0\calc.pdb
+C:\src\tdd-csharp-calc\src\calc\obj\Debug\netcoreapp3.0\calc.csprojAssemblyReference.cache
+C:\src\tdd-csharp-calc\src\calc\obj\Debug\netcoreapp3.0\calc.AssemblyInfoInputs.cache
+C:\src\tdd-csharp-calc\src\calc\obj\Debug\netcoreapp3.0\calc.AssemblyInfo.cs
+C:\src\tdd-csharp-calc\src\calc\obj\Debug\netcoreapp3.0\calc.dll
+C:\src\tdd-csharp-calc\src\calc\obj\Debug\netcoreapp3.0\calc.pdb
