@@ -31,5 +31,23 @@ namespace tests {
             var result = calc.Add("2,2");
             Assert.AreEqual(result, 4);
         }
+
+        [Test]
+        public void Add2And2And3() {
+            var result = calc.Add("2,2,3");
+            Assert.AreEqual(result, 7);
+        }
+
+        [Test]
+        public void Add2And2AndNegative3() {
+            var result = calc.Add("2,2,-3");
+            Assert.AreEqual(result, 1);
+        }
+
+        [Test]
+        public void NegativeResult() {
+            var result = calc.Add("2,-3");
+            Assert.AreEqual(result, -1);
+        }
     }
 }
