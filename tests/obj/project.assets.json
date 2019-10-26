@@ -1438,6 +1438,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
+      },
+      "calc/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/calc.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/calc.dll": {}
+        }
       }
     }
   },
@@ -5250,12 +5260,18 @@
         "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
       ]
+    },
+    "calc/1.0.0": {
+      "type": "project",
+      "path": "../src/calc/calc.csproj",
+      "msbuildProject": "../src/calc/calc.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
       "Microsoft.NET.Test.Sdk >= 16.2.0",
       "NUnit3TestAdapter >= 3.13.0",
+      "calc >= 1.0.0",
       "nunit >= 3.12.0"
     ]
   },
@@ -5265,11 +5281,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\src\\tdd-csharp-calc\\tests\\tests.csproj",
+      "projectUniqueName": "c:\\src\\tdd-csharp-calc\\tests\\tests.csproj",
       "projectName": "tests",
-      "projectPath": "C:\\src\\tdd-csharp-calc\\tests\\tests.csproj",
+      "projectPath": "c:\\src\\tdd-csharp-calc\\tests\\tests.csproj",
       "packagesPath": "C:\\Users\\vlnns\\.nuget\\packages\\",
-      "outputPath": "C:\\src\\tdd-csharp-calc\\tests\\obj\\",
+      "outputPath": "c:\\src\\tdd-csharp-calc\\tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vlnns\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5282,7 +5298,11 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "c:\\src\\tdd-csharp-calc\\src\\calc\\calc.csproj": {
+              "projectPath": "c:\\src\\tdd-csharp-calc\\src\\calc\\calc.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

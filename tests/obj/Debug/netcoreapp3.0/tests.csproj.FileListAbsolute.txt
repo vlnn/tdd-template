@@ -90,3 +90,6 @@ C:\src\tdd-csharp-calc\tests\obj\Debug\netcoreapp3.0\tests.AssemblyInfo.cs
 C:\src\tdd-csharp-calc\tests\obj\Debug\netcoreapp3.0\tests.csproj.CopyComplete
 C:\src\tdd-csharp-calc\tests\obj\Debug\netcoreapp3.0\tests.dll
 C:\src\tdd-csharp-calc\tests\obj\Debug\netcoreapp3.0\tests.pdb
+C:\src\tdd-csharp-calc\tests\bin\Debug\netcoreapp3.0\calc.exe
+C:\src\tdd-csharp-calc\tests\bin\Debug\netcoreapp3.0\calc.dll
+C:\src\tdd-csharp-calc\tests\bin\Debug\netcoreapp3.0\calc.pdb

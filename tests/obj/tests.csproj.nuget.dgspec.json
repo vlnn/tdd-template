@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\src\\tdd-csharp-calc\\tests\\tests.csproj": {}
+    "c:\\src\\tdd-csharp-calc\\tests\\tests.csproj": {}
   },
   "projects": {
-    "C:\\src\\tdd-csharp-calc\\tests\\tests.csproj": {
+    "c:\\src\\tdd-csharp-calc\\src\\calc\\calc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\src\\tdd-csharp-calc\\tests\\tests.csproj",
-        "projectName": "tests",
-        "projectPath": "C:\\src\\tdd-csharp-calc\\tests\\tests.csproj",
+        "projectUniqueName": "c:\\src\\tdd-csharp-calc\\src\\calc\\calc.csproj",
+        "projectName": "calc",
+        "projectPath": "c:\\src\\tdd-csharp-calc\\src\\calc\\calc.csproj",
         "packagesPath": "C:\\Users\\vlnns\\.nuget\\packages\\",
-        "outputPath": "C:\\src\\tdd-csharp-calc\\tests\\obj\\",
+        "outputPath": "c:\\src\\tdd-csharp-calc\\src\\calc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vlnns\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -25,6 +25,60 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\src\\tdd-csharp-calc\\tests\\tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\src\\tdd-csharp-calc\\tests\\tests.csproj",
+        "projectName": "tests",
+        "projectPath": "c:\\src\\tdd-csharp-calc\\tests\\tests.csproj",
+        "packagesPath": "C:\\Users\\vlnns\\.nuget\\packages\\",
+        "outputPath": "c:\\src\\tdd-csharp-calc\\tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vlnns\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "c:\\src\\tdd-csharp-calc\\src\\calc\\calc.csproj": {
+                "projectPath": "c:\\src\\tdd-csharp-calc\\src\\calc\\calc.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
