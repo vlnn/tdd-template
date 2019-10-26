@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\src\\tdd-csharp-calc\\src\\calc\\calc.csproj": {}
+    "c:\\src\\tdd-csharp-calc\\src\\calc\\calc.csproj": {}
   },
   "projects": {
-    "C:\\src\\tdd-csharp-calc\\src\\calc\\calc.csproj": {
+    "c:\\src\\tdd-csharp-calc\\src\\calc\\calc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\src\\tdd-csharp-calc\\src\\calc\\calc.csproj",
+        "projectUniqueName": "c:\\src\\tdd-csharp-calc\\src\\calc\\calc.csproj",
         "projectName": "calc",
-        "projectPath": "C:\\src\\tdd-csharp-calc\\src\\calc\\calc.csproj",
+        "projectPath": "c:\\src\\tdd-csharp-calc\\src\\calc\\calc.csproj",
         "packagesPath": "C:\\Users\\vlnns\\.nuget\\packages\\",
-        "outputPath": "C:\\src\\tdd-csharp-calc\\src\\calc\\obj\\",
+        "outputPath": "c:\\src\\tdd-csharp-calc\\src\\calc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vlnns\\AppData\\Roaming\\NuGet\\NuGet.Config"
