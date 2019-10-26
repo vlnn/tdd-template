@@ -25,5 +25,11 @@ namespace tests {
             var onetwoone = calc.Add("121");
             Assert.AreEqual(onetwoone, 121);
         }
+
+        [Test]
+        public void Add2And2() {
+            var result = calc.Add("2,2");
+            Assert.AreEqual(result, 4);
+        }
     }
 }
