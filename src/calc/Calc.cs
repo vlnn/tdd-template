@@ -2,8 +2,10 @@ using System;
 
 namespace calc {
     public class Calc {
+        private int sum;
         public int Add(string args){
-            return 0;
+            var result = int.TryParse(args, out sum);
+            return sum;
         }
     }
 }
