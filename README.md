@@ -1,9 +1,9 @@
-##TDD Calculator kata
+## TDD Calculator kata
 
 *Investing time in old stuff trying to do it in new way.*
 
 <p align="left">
-  <a href="https://github.com/vlnn/tdd-csharp-calc"><img alt="GitHub Actions status" src="https://github.com/vlnn/tdd-csharp-calc/setup-dotnet/workflows/Main%20workflow/badge.svg"></a>
+  <a href="https://github.com/vlnn/tdd-csharp-calc"><img alt="GitHub Actions status" src="https://github.com/vlnn/tdd-csharp-calc/workflows/dotnetcore/badge.svg"></a>
 </p>
 
 ###Rules for this one:
