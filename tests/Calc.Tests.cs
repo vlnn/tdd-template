@@ -54,7 +54,7 @@ namespace tests {
         [Test]
         public void CharsIgnored() {
             var result = calc.Add("fsdoifj,3,sodijf,2");
-            result.ShouldBe(5);
+            result.ShouldBe(15);
         }
 
         [Test]
