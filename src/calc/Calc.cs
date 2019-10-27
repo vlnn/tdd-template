@@ -4,8 +4,9 @@ namespace calc {
     public class Calc {
         private int parsedint;
         private int sum;
+        private string[] separators  = new string[] {",","\n"};
         public int Add(string args){
-            var results = args.Split(",", new StringSplitOptions());
+            var results = args.Split(separators, StringSplitOptions.RemoveEmptyEntries);
             sum = 0;
             foreach (string number in results) {
                 if (int.TryParse(number, out parsedint)){
