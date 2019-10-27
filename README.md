@@ -2,11 +2,9 @@
 
 *Investing time in old stuff trying to do it in new way.*
 
-<p align="left">
-  <a href="https://github.com/vlnn/tdd-csharp-calc"><img alt="GitHub Actions status" src="https://github.com/vlnn/tdd-csharp-calc/workflows/dotnetcore/badge.svg"></a>
-</p>
+<a href="https://github.com/vlnn/tdd-csharp-calc"><img alt="GitHub Actions status" src="https://github.com/vlnn/tdd-csharp-calc/workflows/.github/workflows/dotnetcore.yml/badge.svg"></a>
 
-###Rules for this one:
+### Rules for this one:
 1. Use TDD in hardcore way:
     1. Tests first
     1. Code second
