@@ -69,5 +69,17 @@ namespace tests {
             var result = calc.Add("2\n,,3\n2\n");
             result.ShouldBe(7);
         }
+
+        [Test]
+        public void OptionalDelimsDoNotChangeResults() {
+            var result = calc.Add("//;.,a\n3,2,1");
+            result.ShouldBe(calc.Add("3,2,1"));
+        }
+
+        [Test]
+        public void OptionalDelimsAreUsed() {
+            var result = calc.Add("//;a\n3a2;1");
+            result.ShouldBe(calc.Add("3,2,1"));
+        }
     }
 }
