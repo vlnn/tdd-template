@@ -58,9 +58,10 @@ namespace tests {
         }
 
         [Test]
-        public void EmptryArgsIgnored() {
-            var result = calc.Add(",,,,3,,,,,,2,,,,");
-            result.ShouldBe(5);
+        public void EmptyArgsIgnored() {
+            var resultEmpties = calc.Add(",,,,3,,,,,,2,,,,");
+            var resultFullies = calc.Add("3,2");
+            resultEmpties.ShouldBe(resultFullies);
         }
 
         [Test]
