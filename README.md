@@ -2,6 +2,10 @@
 
 *Investing time in old stuff trying to do it in new way.*
 
+<p align="left">
+  <a href="https://github.com/vlnn/tdd-csharp-calc"><img alt="GitHub Actions status" src="https://github.com/vlnn/tdd-csharp-calc/setup-dotnet/workflows/Main%20workflow/badge.svg"></a>
+</p>
+
 ###Rules for this one:
 1. Use TDD in hardcore way:
     1. Tests first
